@@ -1,14 +1,56 @@
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Milonga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
- 
+
 /*Generic styles*/
-h1, h2 {
+h1,
+h2 {
     font-family: "Milonga", serif;
 }
 
-p, ul {
+p,
+ul {
     font-family: "Gilda Display", serif;
+}
+
+/*Navigation Bar Styles*/
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #36454F;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    right: 0;
+}
+
+.nav-list {
+    float: left;
+}
+
+.nav-list a {
+    display: block;
+    color: #D3D3D3;
+    text-align: center;
+    padding: 15px 8px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #1B1212;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+/*Header Styles*/
+
+.header-line {
+    top: 34px;
 }
 
 #anne-main {
