@@ -64,7 +64,8 @@ a:hover {
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: #AFE1AF;
+    color: #36454F;
 }
 
 /*Header Styles*/
@@ -120,6 +121,10 @@ hr {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px 5px 10px #36454F;
+}
+
+#six {
+    max-width: 100%;
 }
 
 /*Sign Up page styling*/
