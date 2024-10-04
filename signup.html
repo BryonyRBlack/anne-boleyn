@@ -32,20 +32,25 @@
     </head>
     <main>
         <section>
-            <h1>Sign up</h1>
+            <h1 class="hidden">Sign up</h1>
             <form class="form">
+                <fieldset>
+                    <legend>Sign Up</legend>
                 <label for="Name">Name:</label>
                 <input type="text" id="Name" name="Name" placeholder="Enter name" required><br>
                 <label for="Email">Email:</label>
                 <input type="email" id="Email" name="Email" placeholder="Enter email address" required><br><br>
+                <label for="radio">How often do you want to receive an email?</label><br>
                 <input type="radio" name="frequency" value="daily" checked>Daily<br>
                 <input type="radio" name="frequency" value="weekly">Weekly<br>
                 <input type="radio" name="frequency" value="monthly">Monthly<br><br>
+                <label for="interest">Would you be interested in a similar daily email for other promenant Tudors?</label><br>
                 <select name="interest">
                     <option value="yes">Yes</option>
                     <option value="no">No</option>
                 </select><br><br>
                 <button>Submit</button>
+                </fieldset>
             </form>
         </section>
     </main>

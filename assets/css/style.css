@@ -29,6 +29,10 @@ body {
     background-color: #ECFFDC;
 }
 
+.hidden {
+    display: none;
+}
+
 /*Navigation Bar Styles*/
 
 #navbar {
@@ -108,8 +112,8 @@ a:hover {
 }
 
 /*Sign Up page styling*/
-.form {
-    background: url("../images/image-from-rawpixel-id-9329393-jpeg.jpg") no-repeat center;
+fieldset {
+    margin: 15px;
 }
 
 /*Footer Styling*/
