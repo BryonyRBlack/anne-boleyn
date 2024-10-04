@@ -85,9 +85,20 @@ a:hover {
 .title {
     display: inline;
     color: #D3D3D3;
+
 }
 
 /*Body Styles*/
+
+/*Index page*/
+
+hr {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 10px 0;
+    background-color: #04AA6D;
+}
+
 /*Images on main page*/
 .main-pics {
     max-width: 100%;
