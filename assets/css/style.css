@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Milonga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 
+/*Override default styles*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
 /*Generic styles*/
 h1,
 h2 {
@@ -9,13 +15,10 @@ h2 {
     text-align: center;
 }
 
-p {
-    text-align: center;
-}
-
 p,
 ul {
     font-family: "Gilda Display", serif;
+    text-align: center;
 }
 
 /*Navigation Bar Styles*/
@@ -83,4 +86,14 @@ nav a:hover {
 /*Map Styles*/
 #map {
     max-width: 100%;
+}
+
+/*Images on media page*/
+.actress {
+    max-width: 250px;
+    display: block;
+    max-height: 250px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
