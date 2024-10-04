@@ -6,6 +6,11 @@
 h1,
 h2 {
     font-family: "Milonga", serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 p,
@@ -51,14 +56,31 @@ nav a:hover {
 /*Header Styles*/
 
 .header-line {
-    top: 34px;
+    background-color: #36454F;
+    text-align: center;
 }
 
 .anne-main {
-    background: url("../images/anne-boleyn-385644.jpg") no-repeat center center/cover;
+    display: inline;
+    width: 50vh;
+    left: 0;
+    right: 0;
 }
 
-/*#wives {
-    background: url("../images/12120.jpg"); no-repeat center center/cover;
-    max-width: 150vq;
-}*/
+.title {
+    display: inline;
+    color: #D3D3D3;
+}
+
+/*Body Styles*/
+/*Images on main page*/
+.main-pics {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #36454F;
+}
+
+/*Map Styles*/
+#map {
+    max-width: 100%;
+}
