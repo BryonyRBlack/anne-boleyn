@@ -21,6 +21,14 @@ ul {
     text-align: center;
 }
 
+a {
+    color: #D3D3D3;
+}
+
+body {
+    background-color: #ECFFDC;
+}
+
 /*Navigation Bar Styles*/
 
 #navbar {
@@ -42,13 +50,12 @@ ul {
 
 .nav-list a {
     display: block;
-    color: #D3D3D3;
     text-align: center;
     padding: 15px 8px;
     text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
     background-color: #1B1212;
 }
 
@@ -61,11 +68,12 @@ nav a:hover {
 .header-line {
     background-color: #36454F;
     text-align: center;
+    margin-top: 34px;
 }
 
 .anne-main {
     display: inline;
-    width: 50vh;
+    width: 100%;
     left: 0;
     right: 0;
 }
@@ -96,4 +104,20 @@ nav a:hover {
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 5px 5px 10px #36454F;
+}
+
+/*Sign Up page styling*/
+.form {
+    background: url("../images/image-from-rawpixel-id-9329393-jpeg.jpg") no-repeat center;
+}
+
+/*Footer Styling*/
+footer {
+    padding: 0;
+    margin: 0;
+    background-color: #36454F;
+    color: #D3D3D3;
+    text-align: center;
+    padding: 15px;
 }
