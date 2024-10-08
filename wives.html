@@ -22,7 +22,6 @@
 
 <body>
     <!--Header section-->
-
     <head>
         <!--Navbar-->
         <nav>
@@ -35,49 +34,40 @@
                 <li class="nav-list"><a href="children.html"><i class="fa-solid fa-child-dress"></i> Children</a></li>
             </ul>
         </nav>
+        <!--Header Image and Title-->
         <section class="header-line">
             <img src="assets/images/anne-boleyn-385644.jpg" alt="Portrait of Anne Boelyn" class="anne-main">
             <h1 class="title">Daily Life of Anne Boleyn</h1>
         </section>
-
-
-
     </head>
     <main>
-        <!--Section about the reason for this website/newsletter-->
-        <section id="about-site">
-            <h2>What Happened On This Day</h2>
-            <p>Using historical record, <span>Daily Anne Boelyn</span> will send an email everyday with information
-                about what happened to her on that particular day, 500 hundred years ago. </p>
-            <p>This email can either be received daily, weekly, or monthly.</p>
+        <!--Section about the other wives for context-->
+        <section id="wives">
+            <h2>The Wives on Henry VIII</h2>
+            <img src="assets/images/12120.jpg" alt="Portraits of the Six Wives of Henry VIII" class="main-pics">
+            <p>Henry VIII is perhaps most famous for having six wives, and the famous rhyme "Divorced, Beheaded, Died,
+                Divorced, Beheaded, Survived"</p>
+            <ul>
+                <li><span>Catherine of Aragon</span> - Henry's first wife, initially intended to marry his brother. When
+                    she did not give birth to a son, Henry ended up divorcing her.</li>
+                <li><span>Anne Boelyn</span></li>
+                <li><span>Jane Seymor</span> - believed to be Henry's favourite wife. She is the mother of his only
+                    legitimate son Edward, though died shortley after giving birth to him.</li>
+                <li><span>Anna of Cleeves</span> - they were married for a very short time, and she was given the title
+                    of beloved sister, and a palace after the divorce.</li>
+                <li><span>Katherine Howard</span> - the youngest wife, being only 17 when they married. She was executed
+                    due to accusations she was having an affair.</li>
+                <li><span>Catherine Parr</span> - the surviving wife.</li>
+            </ul>
         </section>
         <hr>
-        <!--Form to sign up to newsletter-->
-        <section>
-            <h1 class="hidden">Sign up</h1>
-            <form class="form">
-                <fieldset>
-                    <legend>Sign Up</legend>
-                    <label for="Name">Name:</label>
-                    <input type="text" id="Name" name="Name" placeholder="Enter name" required><br><br>
-                    <label for="Email">Email:</label>
-                    <input type="email" id="Email" name="Email" placeholder="Enter email address" required><br><br>
-                    <label for="radio">How often do you want to receive an email?</label><br><br>
-                    <input type="radio" name="frequency" value="daily" id="daily" class="radio" checked><label
-                        for="daily"> Daily</label><br><br>
-                    <input type="radio" name="frequency" value="weekly" id="weekly" class="radio"><label for="weekly">
-                        Weekly</label><br><br>
-                    <input type="radio" name="frequency" value="monthly" id="monthly" class="radio"><label
-                        for="monthly"> Monthly</label><br><br>
-                    <label for="interest">Would you be interested in a similar daily email for other promenant
-                        Tudors?</label><br>
-                    <select name="interest" id="interest">
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select><br><br>
-                    <button>Submit</button>
-                </fieldset>
-            </form>
+        <!--Map-->
+        <section id="map">
+            <h2>Anne Boleyn is buried at the Chapel of St Peter and Vincula</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.258464791863!2d-0.0768615!3d51.508474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876034eb7b6f2cf%3A0x2ba5b1adcf71c977!2sChapel%20Royal%20of%20St%20Peter%20ad%20Vincula!5e0!3m2!1sen!2suk!4v1727881026883!5m2!1sen!2suk"
+                max-width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" id="map" title="Map"></iframe>
         </section>
     </main>
     <!--Footer-->
@@ -85,12 +75,11 @@
         <h3>Find us on our socials</h3><br>
         <ul class="footer">
             <li class="footer-links"><a href="https://www.facebook.com/?locale=en_GB" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i
-                        class="fa-brands fa-facebook-f"></i></a></li>
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a></li>
             <li class="footer-links"><a href="https://x.com/?lang=en" target="_blank" rel="noopener"
-                    aria-label="Visit our X page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
+                aria-label="Visit our X page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
             <li class="footer-links"><a href="https://www.tiktok.com/explore?lang=en" target="_blank" rel="noopener"
-                    aria-label="Visit our TikTok page (opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a></li>
+                aria-label="Visit our TikTok page (opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a></li>
         </ul>
     </footer>
     <!--Font Awesome Kit-->
