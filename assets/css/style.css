@@ -15,18 +15,14 @@ h2 {
     text-align: center;
 }
 
-p,
-ul {
-    font-family: "Gilda Display", serif;
-    text-align: center;
-}
-
 a {
     color: #D3D3D3;
 }
 
 body {
     background-color: #ECFFDC;
+    font-family: "Gilda Display", serif;
+    text-align: center;
 }
 
 .hidden {
@@ -90,7 +86,6 @@ a:hover {
 }
 
 /*Body Styles*/
-
 /*Index page*/
 
 hr {
@@ -127,9 +122,23 @@ hr {
     max-width: 100%;
 }
 
-/*Sign Up page styling*/
+/*Sign Up form*/
 fieldset {
     margin: 15px;
+    padding: 15px;
+    border: 2px groove #04AA6D;
+}
+
+button {
+    background-color: #AFE1AF;
+    border: 1px grove;
+    color: #1B1212;
+    padding: 8px 8px;
+    font-size: 24px;    
+}
+
+.radio {
+    font-size: 24px;
 }
 
 /*Footer Styling*/
