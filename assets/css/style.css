@@ -78,6 +78,7 @@ a:hover {
     width: 100%;
     left: 0;
     right: 0;
+    position: relative;
 }
 
 .title {
@@ -106,6 +107,17 @@ hr {
 /*Map Styles*/
 #map {
     max-width: 100%;
+}
+
+/*Images on Wives page*/
+.wives-picture {
+    max-width: 250px;
+    display: block;
+    max-height: 250px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #36454F;
 }
 
 /*Images on media page*/
@@ -178,7 +190,12 @@ footer {
 @media screen and (min-width: 758px) {
     .anne-main {
         width: 250px;
-        margin-left: 0%;
-        padding: 0;
+        display: block;
+        top: 20px;
+    }
+
+    .title {
+        display: inline-block;
+        font-size: xx-large;
     }
 }
