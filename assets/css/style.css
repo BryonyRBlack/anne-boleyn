@@ -78,7 +78,6 @@ a:hover {
     width: 100%;
     left: 0;
     right: 0;
-    position: relative;
 }
 
 .title {
@@ -111,32 +110,7 @@ hr {
 
 /*About Page*/
 
-#page-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1B1212;
-    color: #ECFFDC;
-    width: 100vw;
-}
 
-.pagenav {
-    float: none;
-}
-
-.pagenav a {
-    display: block;
-    text-align: center;
-    padding: 15px 8px;
-    text-decoration: none;
-    font-size: 15px;
-}
-
-.pagenav > a:hover {
-    background-color: #04AA6D;
-    color: black;
-}
 
 /*Images on Wives page*/
 .wives-picture {
@@ -147,6 +121,14 @@ hr {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px 5px 10px #36454F;
+}
+
+#read-more {
+    color:#1B1212
+}
+
+#read-more:hover {
+    color:#04AA6D;
 }
 
 /*Images on media page*/
@@ -227,4 +209,40 @@ footer {
         display: inline-block;
         font-size: xx-large;
     }
+/*About Page Navigation*/
+
+    #title-wives {
+        float: left;
+    }
+
+    #page-nav {
+        float: left;
+        padding: 15px;
+        width: 25%;
+        box-sizing: border-box;
+      }
+      
+      #wives-nav {
+        width: 75%;
+      }
+      
+      .pagenav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 7px;
+        display: block;
+        padding: 8px;
+        background-color: #36454F;
+        text-decoration: none;
+        color: #ECFFDC;
+      }
+    
+      .pagenav:hover {
+        background-color: #1B1212;
+        color: white;
+      }
+
+      #about-anne {
+      }
 }
