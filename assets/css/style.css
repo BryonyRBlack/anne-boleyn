@@ -10,7 +10,7 @@
 
 /*Generic styles*/
 h1,
-h2 {
+h2, h3 {
     font-family: "Milonga", serif;
     text-align: center;
 }
@@ -107,6 +107,35 @@ hr {
 /*Map Styles*/
 #map {
     max-width: 100%;
+}
+
+/*About Page*/
+
+#page-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1B1212;
+    color: #ECFFDC;
+    width: 100vw;
+}
+
+.pagenav {
+    float: none;
+}
+
+.pagenav a {
+    display: block;
+    text-align: center;
+    padding: 15px 8px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.pagenav > a:hover {
+    background-color: #04AA6D;
+    color: black;
 }
 
 /*Images on Wives page*/
