@@ -98,13 +98,6 @@ hr {
     background-color: #04AA6D;
 }
 
-/*Images on main page*/
-.main-pics {
-    max-width: 100%;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px #36454F;
-}
-
 /*Map Styles*/
 #map {
     max-width: 100%;
@@ -120,8 +113,7 @@ hr {
     display: block;
     max-height: 250px;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 10px auto;
     box-shadow: 5px 5px 10px #36454F;
 }
 
@@ -193,36 +185,35 @@ footer {
 
         /* Styling for about page*/
 
-        .about-hr {
-            display: none;
-        }
+    .about-hr {
+        display: none;
+    }
     
-        .about-text {
-            float: left;
-            width: 50%;
-            margin-top: 20px;
-        }
+    .about-text {
+        float: left;
+        width: 50%;
+        margin-top: 20px;
+    }
     
-        .forum {
-            float: right;
-            width: 50%;
-        }
+    .forum {
+        float: right;
+        width: 50%;
+    }
 
     /*About Page Navigation*/
 
-    #title-wives {
+    #title-about {
         float: left;
+        margin-left: 50px;
     }
 
     #page-nav {
         float: left;
         padding: 15px;
-        width: 25%;
-        box-sizing: border-box;
     }
 
-    #wives-nav {
-        width: 75%;
+    #about-nav {
+        width: 25%;
     }
 
     .pagenav {
@@ -242,4 +233,41 @@ footer {
         color: white;
     }
 
+    #about-anne {
+        float: right;
+        width: 75%;
+    }
+
+    /*Wives page*/
+    .wives-hr {
+    display: none;
+    }    
+
+    /*.left {
+        position: static;
+        float: left;
+        width: 50%;
+        display: block;
+    }
+
+    .right {
+        position: static;
+        float: left;
+        width: 50%;
+        display: block;
+    }*/
+
+    .left {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+
+    .right {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: flex-start;
+    }
 }
