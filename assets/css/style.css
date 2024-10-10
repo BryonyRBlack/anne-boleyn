@@ -89,13 +89,6 @@ a:hover {
     margin-top: 45px;
 }
 
-.anne-main {
-    display: inline-block;
-    width: 100%;
-    left: 0;
-    right: 0;
-}
-
 .title {
     display: inline-block;
     color: #D3D3D3;
@@ -119,48 +112,6 @@ hr {
     border-radius: 15px;
 }
 
-/*Map Styles*/
-#map {
-    max-width: 100%;
-}
-
-/*About Page*/
-
-
-
-/*Images on Wives page*/
-.wives-picture {
-    max-width: 250px;
-    display: block;
-    max-height: 250px;
-    border-radius: 50%;
-    margin: 0 auto 15px auto;
-    box-shadow: 5px 5px 10px #36454F;
-}
-
-#read-more {
-    color: #1B1212
-}
-
-#read-more:hover {
-    color: #04AA6D;
-}
-
-/*Images on media page*/
-.actress {
-    max-width: 250px;
-    display: block;
-    max-height: 250px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 5px 5px 10px #36454F;
-}
-
-#six {
-    max-width: 100%;
-}
-
 /*Sign Up form*/
 fieldset {
     margin: 15px;
@@ -179,6 +130,53 @@ button {
 .radio {
     font-size: 24px;
 }
+
+/*Map Styles*/
+#map {
+    max-width: 100%;
+}
+
+/*About Page*/
+
+/*Wives Page*/
+.wives-picture {
+    max-width: 250px;
+    display: block;
+    max-height: 250px;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    box-shadow: 5px 5px 10px #36454F;
+}
+
+#read-more {
+    color: #1B1212
+}
+
+#read-more:hover {
+    color: #04AA6D;
+}
+
+/*Children Page*/
+.main-pics {
+    max-width: 100%;
+}
+
+/*Images on media page*/
+.actress {
+    max-width: 250px;
+    display: block;
+    max-height: 250px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #36454F;
+}
+
+#six {
+    max-width: 100%;
+}
+
+
 
 /*Footer Styling*/
 
@@ -201,17 +199,19 @@ footer {
 
 /*Display for tablets*/
 @media screen and (min-width: 758px) {  
+    /*Header*/
     .title {
         display: inline-block;
         font-size: 65px;
     }
 
     /* Styling for about page*/
-
+    /*Remove hr line break on larger screens*/
     .about-hr {
         display: none;
     }
 
+    /*Make index sections responcive*/
     .about-text {
         float: left;
         width: 50%;
@@ -286,6 +286,7 @@ footer {
 /*Styling for desktop*/
 @media screen and (min-width: 1280px) {
 
+    /*header*/
     .title {
         font-size: 90px;
         padding-bottom: 10px;
