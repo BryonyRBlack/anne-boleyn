@@ -241,27 +241,28 @@ footer {
     /*Wives page*/
     .wives-hr {
     display: none;
-    }    
-
-    /*.left {
-        position: static;
-        float: left;
-        width: 50%;
-        display: block;
+    }   
+    
+    .wife {
+        width: 40%;
+        margin: 20px;
+        height: 560px;
     }
-
-    .right {
-        position: static;
-        float: left;
-        width: 50%;
-        display: block;
-    }*/
 
     .left {
+        float: left;
+    }
+
+    .right {
+        float: left;
+        
+    }
+
+    /*.left {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
-        align-content: flex-start;
+        align-self: flex-start;
     }
 
     .right {
@@ -269,5 +270,6 @@ footer {
         flex-wrap: nowrap;
         flex-direction: column;
         align-content: flex-start;
-    }
+        align-self: flex-end;
+    }*/
 }
