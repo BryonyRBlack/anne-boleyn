@@ -31,6 +31,10 @@ body {
     display: none;
 }
 
+.page-section {
+    margin: 15px;
+}
+
 /*Navigation Bar Styles*/
 
 #navbar {
@@ -72,7 +76,7 @@ a:hover {
 .header-line {
     background-color: #36454F;
     text-align: center;
-    margin-top: 34px;
+    margin-top: 45px;
 }
 
 .anne-main {
@@ -113,7 +117,7 @@ hr {
     display: block;
     max-height: 250px;
     border-radius: 50%;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 15px auto;
     box-shadow: 5px 5px 10px #36454F;
 }
 
@@ -183,18 +187,18 @@ footer {
         font-size: xx-large;
     }
 
-        /* Styling for about page*/
+    /* Styling for about page*/
 
     .about-hr {
         display: none;
     }
-    
+
     .about-text {
         float: left;
         width: 50%;
         margin-top: 20px;
     }
-    
+
     .forum {
         float: right;
         width: 50%;
@@ -240,13 +244,39 @@ footer {
 
     /*Wives page*/
     .wives-hr {
-    display: none;
-    }   
-    
+        display: none;
+    }
+
     .wife {
         width: 40%;
         margin: 20px;
         height: 560px;
+        align: center; 
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+
+    }
+}
+
+/*Styling for desktop*/
+@media screen and (min-width: 1280px) {
+
+    /*Wives page*/
+    .wives-hr {
+        display: none;
+    }
+
+    .wife {
+        width: 30%;
+        margin: 20px;
+        height: 560px;
+        align: center;
     }
 
     .left {
@@ -255,21 +285,11 @@ footer {
 
     .right {
         float: left;
-        
+
     }
 
-    /*.left {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-self: flex-start;
+    #line {
+        display: block;
     }
 
-    .right {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-content: flex-start;
-        align-self: flex-end;
-    }*/
 }
