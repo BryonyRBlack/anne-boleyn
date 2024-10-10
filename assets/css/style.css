@@ -4,13 +4,15 @@
 
 /*Override default styles*/
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 /*Generic styles*/
 h1,
-h2, h3 {
+h2,
+h3 {
     font-family: "Milonga", serif;
     text-align: center;
 }
@@ -83,7 +85,7 @@ a:hover {
 .title {
     display: inline-block;
     color: #D3D3D3;
-
+    font-size: 50px;
 }
 
 /*Body Styles*/
@@ -124,11 +126,11 @@ hr {
 }
 
 #read-more {
-    color:#1B1212
+    color: #1B1212
 }
 
 #read-more:hover {
-    color:#04AA6D;
+    color: #04AA6D;
 }
 
 /*Images on media page*/
@@ -158,7 +160,7 @@ button {
     border: 1px grove;
     color: #1B1212;
     padding: 8px 8px;
-    font-size: 24px;    
+    font-size: 24px;
 }
 
 .radio {
@@ -175,27 +177,6 @@ footer {
     bottom: 0;
 }
 
-.footer {
-    list-style-type: none;
-    overflow: hidden;
-    bottom: 0;
-    width: 100vw;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.footer-links {
-    float: left;
-}
-
-.footer-links a {
-    display: block;
-    text-align: center;
-    padding: 0 8px 15px 8px;
-    text-decoration: none;
-}
 
 /*Display for tablets*/
 @media screen and (min-width: 758px) {
@@ -209,7 +190,25 @@ footer {
         display: inline-block;
         font-size: xx-large;
     }
-/*About Page Navigation*/
+
+        /* Styling for about page*/
+
+        .about-hr {
+            display: none;
+        }
+    
+        .about-text {
+            float: left;
+            width: 50%;
+            margin-top: 20px;
+        }
+    
+        .forum {
+            float: right;
+            width: 50%;
+        }
+
+    /*About Page Navigation*/
 
     #title-wives {
         float: left;
@@ -220,13 +219,13 @@ footer {
         padding: 15px;
         width: 25%;
         box-sizing: border-box;
-      }
-      
-      #wives-nav {
+    }
+
+    #wives-nav {
         width: 75%;
-      }
-      
-      .pagenav {
+    }
+
+    .pagenav {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -236,10 +235,11 @@ footer {
         background-color: #36454F;
         text-decoration: none;
         color: #ECFFDC;
-      }
-    
-      .pagenav:hover {
+    }
+
+    .pagenav:hover {
         background-color: #1B1212;
         color: white;
-      }
+    }
+
 }
