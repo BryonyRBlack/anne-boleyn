@@ -102,6 +102,12 @@ hr {
     background-color: #04AA6D;
 }
 
+.anne {
+    width: 250px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
 /*Map Styles*/
 #map {
     max-width: 100%;
@@ -175,16 +181,10 @@ footer {
 
 
 /*Display for tablets*/
-@media screen and (min-width: 758px) {
-    .anne-main {
-        width: 250px;
-        display: block;
-        top: 20px;
-    }
-
+@media screen and (min-width: 758px) {  
     .title {
         display: inline-block;
-        font-size: xx-large;
+        font-size: 65px;
     }
 
     /* Styling for about page*/
@@ -266,6 +266,10 @@ footer {
 
 /*Styling for desktop*/
 @media screen and (min-width: 1280px) {
+
+    .title {
+        font-size: 100px;
+    }
 
     /*Wives page*/
     .wives-hr {
