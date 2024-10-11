@@ -180,14 +180,13 @@ button {
 }
 
 /*Images on media page*/
-.actress {
+.actress-picture {
     max-width: 250px;
     display: block;
     max-height: 250px;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: 5px 5px 10px #36454F;
+    margin: 10px auto 10px auto;
 }
 
 #six {
@@ -314,6 +313,27 @@ footer {
     }
 }
 
+/*Media Pagw*/
+    /*.media-hr {
+        display: none;
+    }
+
+    .actress {
+        width: 40%;
+        margin: 20px;
+        height: 560px;
+        align: center;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+
+    }
+*/
 /*Styling for desktop*/
 @media screen and (min-width: 1280px) {
 
