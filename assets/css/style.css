@@ -34,10 +34,6 @@ body {
     position: relative;
 }
 
-body {
-    padding-bottom: 50px;
-}
-
 .hidden {
     display: none;
 }
@@ -149,6 +145,7 @@ button {
 .pagenav {
     list-style: none;
     padding: 5px 0 5px 0;
+    text-decoration: none;
 }
 
 .pagenav:hover {
