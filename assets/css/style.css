@@ -313,7 +313,7 @@ footer {
         float: left;
     }
 
-/*Media Page*/
+    /*Media Page*/
     .hr-actress {
         display: none;
     }
@@ -354,6 +354,31 @@ footer {
         width: 30%;
         margin: 20px;
         height: 560px;
+        align: center;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: left;
+
+    }
+
+    .line {
+        display: block;
+    }
+
+    /*Media page*/
+    .actress-hr {
+        display: none;
+    }
+
+    .actress {
+        width: 30%;
+        margin: 20px;
+        height: 320px;
         align: center;
     }
 
