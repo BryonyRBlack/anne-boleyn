@@ -190,7 +190,6 @@ button {
 }
 
 #six {
-    max-width: 100%;
     clear: both;
 }
 
@@ -204,6 +203,7 @@ footer {
     height: 50px;
     bottom: 0;
     width: 100%;
+    margin: bottom: 0;
 }
 
 #footer-main {
@@ -332,6 +332,13 @@ footer {
     .right {
         float: right;
 
+    }
+
+    #six-video {
+        clear: both;
+        width: 420px;
+        height: 320px;
+        margin-top: 5px;
     }
 
 }
