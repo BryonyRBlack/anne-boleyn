@@ -139,7 +139,6 @@ button {
 /*About Page*/
 
 /*Wives Page*/
-
 .wives-picture {
     max-width: 250px;
     display: block;
@@ -180,6 +179,8 @@ button {
     max-width: 100%;
 }
 
+
+
 /*Footer Styling*/
 
 footer {
@@ -188,7 +189,6 @@ footer {
     height: 50px;
     bottom: 0;
     width: 100%;
-    margin-bottom: 0;
 }
 
 #footer-main {
@@ -197,8 +197,8 @@ footer {
 
 #footer-wives {
     clear: both;
-    position: absolute;
 }
+
 
 /*Display for tablets*/
 @media screen and (min-width: 758px) {  
@@ -206,15 +206,6 @@ footer {
     .title {
         display: inline-block;
         font-size: 65px;
-    }
-
-    .header-line {
-        margin-top: 59px;
-    }
-
-    /*Navbar*/
-    .nav-list a {
-        font-size: 25px;
     }
 
     /* Styling for about page*/
@@ -309,15 +300,6 @@ footer {
     .title {
         font-size: 90px;
         padding-bottom: 10px;
-    }
-
-    .header-line {
-        margin-top: 71px;
-    }
-
-    /*Navbar*/
-    .nav-list a {
-        font-size: 35px;
     }
 
     /*Wives page*/
