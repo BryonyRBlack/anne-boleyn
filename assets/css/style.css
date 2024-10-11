@@ -21,7 +21,8 @@ a {
     color: #D3D3D3;
 }
 
-html, body {
+html,
+body {
     background-color: #ECFFDC;
     font-family: "Gilda Display", serif;
     text-align: center;
@@ -138,6 +139,23 @@ button {
 
 /*About Page*/
 
+#about-nav {
+    margin-top: 10px;
+    background-color: #36454F;
+    text-decoration: none;
+    color: #ECFFDC;
+}
+
+.pagenav {
+    list-style: none;
+    padding: 5px 0 5px 0;
+}
+
+.pagenav:hover {
+    background-color: #1B1212;
+    color: white;
+}
+
 /*Wives Page*/
 .wives-picture {
     max-width: 250px;
@@ -192,6 +210,7 @@ footer {
 }
 
 #footer-main {
+    clear: both;
     position: absolute;
 }
 
@@ -201,7 +220,8 @@ footer {
 
 
 /*Display for tablets*/
-@media screen and (min-width: 758px) {  
+@media screen and (min-width: 758px) {
+
     /*Header*/
     .title {
         display: inline-block;
@@ -273,7 +293,7 @@ footer {
         width: 40%;
         margin: 20px;
         height: 560px;
-        align: center; 
+        align: center;
     }
 
     .left {
