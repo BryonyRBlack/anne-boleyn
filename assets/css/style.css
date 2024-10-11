@@ -217,6 +217,8 @@ footer {
 
 #footer-children {
     clear: both;
+    position: absolute;
+    bottom: 0;
 }
 
 
@@ -234,8 +236,6 @@ footer {
     .about-hr {
         display: none;
     }
-
-
 
     /*About Page Navigation*/
     #about-nav {
