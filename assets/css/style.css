@@ -235,17 +235,7 @@ footer {
         display: none;
     }
 
-    /*Make index sections responcive*/
-    .about-text {
-        float: left;
-        width: 50%;
-        margin-top: 20px;
-    }
 
-    .forum {
-        float: right;
-        width: 50%;
-    }
 
     /*About Page Navigation*/
     #about-nav {
