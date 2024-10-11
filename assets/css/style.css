@@ -248,41 +248,15 @@ footer {
     }
 
     /*About Page Navigation*/
-
-    #title-about {
-        float: left;
-        margin-left: 50px;
-    }
-
-    #page-nav {
-        float: left;
-        padding: 15px;
-    }
-
     #about-nav {
-        width: 25%;
+        display: none;
     }
 
-    .pagenav {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        margin-bottom: 7px;
-        display: block;
-        padding: 8px;
-        background-color: #36454F;
-        text-decoration: none;
-        color: #ECFFDC;
-    }
-
-    .pagenav:hover {
-        background-color: #1B1212;
-        color: white;
-    }
-
-    #about-anne {
-        float: right;
-        width: 75%;
+    #map-frame {
+        clear: both;
+        width: 420px;
+        height: 320px;
+        margin-top: 5px;
     }
 
     /*Wives page*/
