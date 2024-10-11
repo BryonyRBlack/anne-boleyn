@@ -311,17 +311,16 @@ footer {
         border-radius: 20px;
         float: left;
     }
-}
 
-/*Media Pagw*/
-    /*.media-hr {
+/*Media Page*/
+    .hr-actress {
         display: none;
     }
 
     .actress {
         width: 40%;
         margin: 20px;
-        height: 560px;
+        height: 300px;
         align: center;
     }
 
@@ -333,7 +332,9 @@ footer {
         float: right;
 
     }
-*/
+
+}
+
 /*Styling for desktop*/
 @media screen and (min-width: 1280px) {
 
