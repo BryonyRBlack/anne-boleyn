@@ -216,9 +216,6 @@ footer {
     clear: both;
 }
 
-#footer-children {
-    clear: both;
-}
 
 /*Display for tablets*/
 @media screen and (min-width: 758px) {
@@ -358,6 +355,10 @@ footer {
 
     #line {
         display: block;
+    }
+
+    #footer-children {
+        position: absolute;
     }
 
 }
