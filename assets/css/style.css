@@ -33,7 +33,6 @@ body {
     background-color: #ECFFDC;
     font-family: "Gilda Display", serif;
     text-align: center;
-    height: 100%;
 }
 
 .hidden {
@@ -220,7 +219,6 @@ footer {
 #footer-children {
     clear: both;
 }
-
 
 /*Display for tablets*/
 @media screen and (min-width: 758px) {
