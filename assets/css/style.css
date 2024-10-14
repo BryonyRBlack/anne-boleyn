@@ -56,6 +56,7 @@ nav {
 
 #nav-toggle:checked~nav {
     display: block;
+    
 }
 
 #nav-toggle {
@@ -64,6 +65,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 25px;
+    margin-right: 10px;
 }
 
 .nav-list a {
@@ -87,7 +89,7 @@ a:hover {
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: baseline;
     background-color: #36454F;
 }
@@ -95,6 +97,7 @@ header {
 .header-line {
     background-color: #36454F;
     text-align: center;
+    margin-left: 36px;
 }
 
 .title {
@@ -236,20 +239,46 @@ footer {
         font-size: 65px;
     }
 
-    #navbar {
-        position: fixed;
-    }
-
     nav {
         display: block;
     }
 
-    .nav-toggle-label { 
-        display: none;
+    #navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #36454F;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        left: 0;
+        right: 0;
     }
 
+    .nav-toggle-label {
+        display: none;
+    }
+    
     .nav-list {
         float: left;
+    }
+    
+    .nav-list a {
+        display: block;
+        text-align: center;
+        padding: 15px 8px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    
+    a:hover {
+        background-color: #1B1212;
+    }
+    
+    .active {
+        background-color: #AFE1AF;
+        color: #36454F;
     }
 
 
