@@ -36,11 +36,6 @@ body {
     height: 100%;
 }
 
-.container {
-    min-height: 100%;
-    position: relative;
-}
-
 .hidden {
     display: none;
 }
@@ -224,8 +219,6 @@ footer {
 
 #footer-children {
     clear: both;
-    position: absolute;
-    bottom: 0;
 }
 
 
