@@ -45,13 +45,29 @@ body {
 
 /*Navigation Bar Styles*/
 
+nav {
+    position: absolute;
+    display: none;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 25px;
+}
+
 #navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #36454F;
-    position: fixed;
     top: 0;
     width: 100vw;
     left: 0;
@@ -224,6 +240,10 @@ footer {
     .title {
         display: inline-block;
         font-size: 65px;
+    }
+
+    #navbar {
+        position: fixed;
     }
 
     /* Styling for about page*/
