@@ -45,7 +45,6 @@ body {
 }
 
 
-
 /*Navigation Bar Styles*/
 
 nav {
@@ -165,24 +164,6 @@ button {
     margin: 15px 0 15px 0;
     object-fit: cover;
     overflow: hidden;
-}
-
-/*Wives Page*/
-.wives-picture {
-    max-width: 250px;
-    display: block;
-    max-height: 250px;
-    border-radius: 50%;
-    margin: 0 auto 15px auto;
-    box-shadow: 5px 5px 10px #36454F;
-}
-
-#read-more {
-    color: #1B1212
-}
-
-#read-more:hover {
-    color: #04AA6D;
 }
 
 /*Images on media page*/
@@ -371,30 +352,6 @@ footer {
     .title {
         font-size: 90px;
         padding-bottom: 10px;
-    }
-
-    /*Wives page*/
-    .wives-hr {
-        display: none;
-    }
-
-    .wife {
-        width: 30%;
-        margin: 20px;
-        height: 560px;
-    }
-
-    .left {
-        float: left;
-    }
-
-    .right {
-        float: left;
-
-    }
-
-    .line {
-        display: block;
     }
 
     /*Media page*/
