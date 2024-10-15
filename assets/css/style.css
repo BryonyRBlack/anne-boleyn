@@ -174,8 +174,11 @@ button {
 }
 
 .about-pictures {
-    height: 200px;
-    width: 150px;
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #36454F;
+    margin: 15px 0 15px 0;
     object-fit: cover;
     overflow: hidden;
 }
@@ -196,14 +199,6 @@ button {
 
 #read-more:hover {
     color: #04AA6D;
-}
-
-/*Children Page*/
-.about-pictures {
-    max-width: 100%;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px #36454F;
-    margin: 15px 0 15px 0;
 }
 
 /*Images on media page*/
@@ -307,8 +302,6 @@ footer {
     }
 
     .about-pictures {
-        height: 200px;
-        width: 150px;
         float: left;
         margin-right: 30px;
         object-fit: cover;
@@ -316,8 +309,12 @@ footer {
     }
 
     .about-sections {
-        height: 220px;
+        height: 350px;
         margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .about-text {
         text-align: left;
     }
 
