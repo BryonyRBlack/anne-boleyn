@@ -237,7 +237,8 @@ footer {
     /*Header*/
     .title {
         display: inline-block;
-        font-size: 65px;
+        font-size: 60px;
+        padding-bottom: 10px
     }
 
     nav {
