@@ -169,6 +169,10 @@ button {
     color: white;
 }
 
+.about-sections {
+    margin-bottom: 10px;
+}
+
 /*Wives Page*/
 .wives-picture {
     max-width: 250px;
@@ -188,7 +192,7 @@ button {
 }
 
 /*Children Page*/
-.main-pics {
+.about-pictures {
     max-width: 100%;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #36454F;
@@ -295,6 +299,17 @@ footer {
         display: none;
     }
 
+    .about-pictures {
+        height: 200px;
+        float: left;
+        margin-right: 30px;
+    }
+
+    .about-sections {
+        height: 220px;
+        margin-bottom: 20px;
+    }
+
     /*About Page Navigation*/
     #about-nav {
         display: none;
@@ -325,13 +340,6 @@ footer {
     .right {
         float: right;
 
-    }
-
-    /*Children Page*/
-    .main-pics {
-        max-width: 550px;
-        border-radius: 20px;
-        float: left;
     }
 
     /*Media Page*/
