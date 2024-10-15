@@ -173,6 +173,13 @@ button {
     margin-bottom: 10px;
 }
 
+.about-pictures {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
 /*Wives Page*/
 .wives-picture {
     max-width: 250px;
@@ -301,14 +308,19 @@ footer {
 
     .about-pictures {
         height: 200px;
+        width: 150px;
         float: left;
         margin-right: 30px;
+        object-fit: cover;
+        overflow: hidden;
     }
 
     .about-sections {
         height: 220px;
         margin-bottom: 20px;
+        text-align: left;
     }
+
 
     /*About Page Navigation*/
     #about-nav {
