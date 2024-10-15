@@ -366,9 +366,17 @@ footer {
 @media screen and (min-width: 1280px) {
 
     /*header*/
+
+    .header-line {
+        text-align: center;
+        min-width: 100%;
+    }
+
     .title {
         font-size: 90px;
+        display: inline-block;
         padding-bottom: 10px;
+        text-align: center;
     }
 
     /*Wives page*/
