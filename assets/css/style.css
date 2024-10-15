@@ -197,12 +197,13 @@ button {
 
 /*Images on media page*/
 .actress-picture {
-    max-width: 250px;
     display: block;
-    max-height: 250px;
+    width: 200px;
+    height: 250px;
     border-radius: 50%;
     box-shadow: 5px 5px 10px #36454F;
     margin: 10px auto 10px auto;
+    object-fit: cover;
 }
 
 #six {
@@ -339,9 +340,11 @@ footer {
     }
 
     .actress {
-        width: 40%;
+        width: 30%;
         margin: 20px;
-        height: 300px;
+        min-height: 300px;
+        object-fit: cover;
+        overflow: hidden;
     }
 
     .left {
@@ -374,9 +377,7 @@ footer {
 
     .title {
         font-size: 90px;
-        display: inline-block;
         padding-bottom: 10px;
-        text-align: center;
     }
 
     /*Wives page*/
