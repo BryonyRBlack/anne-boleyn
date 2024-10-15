@@ -99,6 +99,7 @@ header {
     background-color: #36454F;
     text-align: center;
     margin-left: 36px;
+    padding-bottom: 10px;
 }
 
 .title {
@@ -238,7 +239,6 @@ footer {
     .title {
         display: inline-block;
         font-size: 60px;
-        padding-bottom: 10px
     }
 
     nav {
