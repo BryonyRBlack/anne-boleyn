@@ -13,6 +13,7 @@
 
 body {
     min-height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -42,6 +43,8 @@ body {
 .page-section {
     margin: 15px;
 }
+
+
 
 /*Navigation Bar Styles*/
 
@@ -150,25 +153,6 @@ button {
 }
 
 /*About Page*/
-
-#about-nav {
-    margin-top: 10px;
-    background-color: #36454F;
-    text-decoration: none;
-    color: #ECFFDC;
-}
-
-.pagenav {
-    list-style: none;
-    padding: 5px 0 5px 0;
-    text-decoration: none;
-}
-
-.pagenav:hover {
-    background-color: #1B1212;
-    color: white;
-}
-
 .about-sections {
     margin-bottom: 10px;
 }
@@ -229,13 +213,10 @@ footer {
     margin-bottom: 0;
 }
 
-#footer-main {
-    clear: both;
-    position: absolute;
-}
+.footer-main {
 
-#footer-wives {
-    clear: both;
+    
+    bottom: 0;
 }
 
 
@@ -320,9 +301,6 @@ footer {
 
 
     /*About Page Navigation*/
-    #about-nav {
-        display: none;
-    }
 
     #map-frame {
         clear: both;
@@ -443,10 +421,6 @@ footer {
 
     #line {
         display: block;
-    }
-
-    #footer-children {
-        position: absolute;
     }
 
 }
