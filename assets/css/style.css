@@ -213,10 +213,8 @@ footer {
     margin-bottom: 0;
 }
 
-.footer-main {
-
-    
-    bottom: 0;
+.footer-main{
+    position: absolute;  
 }
 
 
@@ -367,7 +365,7 @@ footer {
 
     .header-line {
         text-align: center;
-        min-width: 100%;
+        min-width: 98vw;
     }
 
     .title {
