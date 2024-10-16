@@ -177,6 +177,10 @@ button {
     object-fit: cover;
 }
 
+.actress {
+    height: 330px;
+}
+
 #six {
     clear: both;
 }
@@ -314,21 +318,23 @@ footer {
     }
 
     .actress {
-        width: 30%;
+        width: 40%;
         margin: 20px;
         min-height: 300px;
         object-fit: cover;
         overflow: hidden;
+
+        /*float: left;*/
     }
 
-    .left {
+    /*.left {
         float: left;
     }
 
     .right {
         float: right;
 
-    }
+    }*/
 
     #six-video {
         clear: both;

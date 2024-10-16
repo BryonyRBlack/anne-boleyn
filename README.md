@@ -1,3 +1,3 @@
 # Daily Life of Anne Boleyn
 Daily Life of Anne Boleyn is a website that sends out a daily, weekly, or monthly email to the user about what happened to Anne Boleyn 500 years before. It also contains biographical information on Anne Boleyn, and a page containing all of the media apperances that include her as a character. 
-The intended user base for this website is people who are interested in history, and wish to learn more about the Tudor period. There is a question on the form page about if users would be interested in other prominent Tudors, to see if there is a market for this.
+The intended user base for this website is people who are interested in history, and wish to learn more about the Tudor period. There is a question on the form page about if users would be interested in other prominent Tudors, to see if there is a market for expansion.
