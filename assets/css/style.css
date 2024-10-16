@@ -351,6 +351,16 @@ footer {
         padding-bottom: 10px;
     }
 
+    /*Index Page*/
+
+    .anne {
+        width: 400px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
     /*Media page*/
     .actress-hr {
         display: none;
