@@ -167,6 +167,11 @@ button {
 }
 
 /*Images on media page*/
+
+#media-blurb {
+    margin-top: 10px;
+}
+
 .actress-picture {
     display: block;
     width: 200px;
