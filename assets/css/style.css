@@ -190,6 +190,9 @@ button {
     clear: both;
 }
 
+.line {
+    display: none;
+}
 
 
 /*Footer Styling*/
@@ -337,8 +340,14 @@ footer {
         margin-top: 5px;
     }
 
-    .line {
-        color: green;
+    .mid {
+        display: block;
+        color:#1B1212;
+    }
+
+    .alt-hr {
+        display: block;
+        color:#1B1212;
     }
 
 }
@@ -378,8 +387,16 @@ footer {
 
     }
 
-    #line {
+    .line {
         display: block;
+        color:#1B1212;
     }
 
+    .alt-hr {
+        display: none;
+    }
+
+    .mid {
+        display: none;
+    }
 }
