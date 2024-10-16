@@ -311,6 +311,14 @@ footer {
         overflow: hidden;
     }
 
+    .left {
+        float: left
+    }
+
+    .right {
+        float: right;
+    }
+
     /*Video settings for larger screens*/
     #six-video {
         clear: both;
