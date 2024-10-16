@@ -44,3 +44,18 @@ The video is complete with controls so that the user can choose if they wish to 
 The form takes the name and email address, and won't submit unless these are correctly input. It also asks how often the emails should be sent for the user's preference, as well as if they'd be interested in other Tudors, to see if expansion would be a useful feature to implant in the future.
 
 # Testing
+Something something about showing relatives to ensure that webstructure made sense
+Resposinve-ness. Main picture changes, layout for About Anne changes for pictures to be under header or next. Media page this changes for pictures to be 1, 2 or 3 columns depending on screen size.
+
+# Deployment
+How I did it
+
+# Credits
+## Content
+* Footer pushed down code from Love Running
+* Historical Facts from Tudors by Peter Ackroyd
+* Mobile Navigation bar from Love Running
+* Icons in the navigation bar from Font Awesome
+
+## Media
+* Images used are from Google Images, with license set to Creative Commons licenses

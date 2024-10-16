@@ -337,6 +337,10 @@ footer {
         margin-top: 5px;
     }
 
+    .line {
+        color: green;
+    }
+
 }
 
 /*Styling for desktop*/
