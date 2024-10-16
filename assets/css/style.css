@@ -318,23 +318,12 @@ footer {
     }
 
     .actress {
-        width: 40%;
+        width: 44%;
         margin: 20px;
         min-height: 300px;
         object-fit: cover;
         overflow: hidden;
-
-        /*float: left;*/
     }
-
-    /*.left {
-        float: left;
-    }
-
-    .right {
-        float: right;
-
-    }*/
 
     #six-video {
         clear: both;
