@@ -146,12 +146,11 @@ header {
     overflow: hidden;
 }
 
-/*Media Page*/
+/*On-Screen Page*/
 
 #media-blurb {
     margin-top: 10px;
 }
-
 
 .line {
     display: none;
@@ -171,6 +170,10 @@ header {
 
 .actress {
     height: 330px;
+}
+
+.alt-hr {
+    display: none;
 }
 
 /*Video*/
