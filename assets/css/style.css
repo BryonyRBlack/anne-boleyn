@@ -122,6 +122,10 @@ header {
     border-radius: 15px;
 }
 
+.index-text {
+    margin: auto 20px auto 20px;
+}
+
 /*About Page*/
 .about-sections {
     margin-bottom: 10px;

@@ -49,9 +49,9 @@ Resposinve-ness. Main picture changes, layout for About Anne changes for picture
 
 # Deployment
 This was deployed to GitHub pages
-* Clicked onto the settings tab, and then onto Pages under Code and automation
-* Ensured Branch was set to Main, and saved
-* Located under Envioments
+* Clicked onto the settings tab, and then onto *Pages* under *Code and automation*
+* Ensured Branch was set to *Main*, and saved
+* Located under *Envioments*
 The deployed site can be located here: https://bryonyrblack.github.io/anne-boleyn/index.html
 
 # Credits
