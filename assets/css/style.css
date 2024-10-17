@@ -266,6 +266,7 @@ footer {
 
     .header-line {
         margin-top: 45px;
+        min-width: 97vw;
     }
 
     /* Styling for about page*/
