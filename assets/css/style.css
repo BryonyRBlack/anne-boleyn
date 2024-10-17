@@ -164,12 +164,12 @@ header {
     height: 250px;
     border-radius: 50%;
     box-shadow: 5px 5px 10px #36454F;
-    margin: 10px auto 10px auto;
+    margin: 10px auto 20px auto;
     object-fit: cover;
 }
 
 .actress {
-    height: 330px;
+    height: 320px;
 }
 
 .alt-hr {
@@ -314,7 +314,7 @@ footer {
     .actress {
         width: 44%;
         margin: 20px;
-        min-height: 300px;
+        min-height: 360px;
         object-fit: cover;
         overflow: hidden;
     }
