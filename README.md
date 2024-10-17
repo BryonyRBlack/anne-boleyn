@@ -44,8 +44,22 @@ The video is complete with controls so that the user can choose if they wish to 
 The form takes the name and email address, and won't submit unless these are correctly input. It also asks how often the emails should be sent for the user's preference, as well as if they'd be interested in other Tudors, to see if expansion would be a useful feature to implant in the future.
 
 # Testing
-Something something about showing relatives to ensure that webstructure made sense
-Resposinve-ness. Main picture changes, layout for About Anne changes for pictures to be under header or next. Media page this changes for pictures to be 1, 2 or 3 columns depending on screen size.
+### Header
+For the header, on mobile screens, the navigation bar is beneath a burger icon that has to be clicked on in order for the options to come up. This saves safe on smaller devices. On a tablet or desktop, the navigation bar is fixed to the top of the screen as this has more space. The header text is set to be central on all screen sizes, but with different font sizes in order to fit the type of device.
+
+### Index Page
+The image on the index page is responsive to screen size. The text on larger screens also increases in size.
+
+### About Anne Page
+Each section is underneath a clear header for navigation. Each section contains a header, text about the subject, and a relevant image. On a mobile screen, the image appears between the header and the text, on a tablet or a desktop it appears to the left side. 
+
+### On-Screen Portayals
+Each div contains an image of the acrtress, and some text. On a mobile screen this is a single column, with the picture above the text. On a tablet sized screen, these are in rows of two, and on a desktop, this is in rows of three. On each sized screen there is a hr line between each row.
+
+## Second Opions
+After the main pages had been created, I showed this to a relative for their opion on if this was logical and what they would expect from a website.
+* Children page - at the time, the information about Elizabeth was on a seperate page. The feedback advised that this was better suited on the About Anne page as it is not a main focus for the site and also shows the longer impact Anne had on history.
+* Wives page - there had originally been a page about the six wives of Henry VIII. The feedback was that this was a little redundent, especially as Catherine and Jane's significance to Anne was featured on the About Anne page, and the other three had no real connection. Because of this, I removed this page, however did use the responsive coding on the media page.
 
 # Deployment
 This was deployed to GitHub pages
