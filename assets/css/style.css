@@ -284,6 +284,7 @@ footer {
         margin-right: 30px;
         object-fit: cover;
         overflow: hidden;
+        margin-top: 0;
     }
 
     .about-sections {
