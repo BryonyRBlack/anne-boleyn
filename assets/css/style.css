@@ -204,6 +204,7 @@ footer {
     bottom: 0;
     width: 100%;
     margin-bottom: 0;
+    margin-top: 20px;
 }
 
 .footer-main{
@@ -266,7 +267,7 @@ footer {
 
     .header-line {
         margin-top: 45px;
-        min-width: 97vw;
+        /*min-width: 96vw;*/
     }
 
     /* Styling for about page*/
