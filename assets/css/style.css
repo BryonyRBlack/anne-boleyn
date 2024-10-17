@@ -416,4 +416,23 @@ footer {
     .mid {
         display: none;
     }
+
+    /*Sign Up Page*/
+
+    .forum {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #signup-image-anne {
+        background: url("../images/anne-boleyn.jpg");
+        float: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 25%;
+        height: 350px;
+        margin-left: 100px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
 }
