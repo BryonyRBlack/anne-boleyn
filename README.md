@@ -48,7 +48,11 @@ Something something about showing relatives to ensure that webstructure made sen
 Resposinve-ness. Main picture changes, layout for About Anne changes for pictures to be under header or next. Media page this changes for pictures to be 1, 2 or 3 columns depending on screen size.
 
 # Deployment
-How I did it
+This was deployed to GitHub pages
+* Clicked onto the settings tab, and then onto Pages under Code and automation
+* Ensured Branch was set to Main, and saved
+* Located under Envioments
+The deployed site can be located here: https://bryonyrblack.github.io/anne-boleyn/index.html
 
 # Credits
 ## Content
