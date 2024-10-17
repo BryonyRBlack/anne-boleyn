@@ -57,9 +57,17 @@ Each section is underneath a clear header for navigation. Each section contains 
 Each div contains an image of the acrtress, and some text. On a mobile screen this is a single column, with the picture above the text. On a tablet sized screen, these are in rows of two, and on a desktop, this is in rows of three. On each sized screen there is a hr line between each row.
 
 ## Second Opions
-After the main pages had been created, I showed this to a relative for their opion on if this was logical and what they would expect from a website.
+After the main pages had been created, I showed this to a relative for their opion on if this was logical and what they would expect from a website. 
 * Children page - at the time, the information about Elizabeth was on a seperate page. The feedback advised that this was better suited on the About Anne page as it is not a main focus for the site and also shows the longer impact Anne had on history.
 * Wives page - there had originally been a page about the six wives of Henry VIII. The feedback was that this was a little redundent, especially as Catherine and Jane's significance to Anne was featured on the About Anne page, and the other three had no real connection. Because of this, I removed this page, however did use the responsive coding on the media page.
+* Sign Up form - on the navigation, this was the second link. It made more sense for this to be the last one, and so I moved this
+After these changes were made, they agreed that the website made more sense to read
+* Spacing - Some of the spacing wasn't big enough, and made for difficult reading. Because of this I added padding and margins.
+* Font - in some places, such as the middle of an H, the font was too thin for this to be readable. Because of this, I increased the font weight.
+
+## Bugs
+### Footer
+The footer would not remain at the bottom of the page. On the main and sign up page, it would go to the bottom of the text, and on other pages appeared about halfway down. There was also a horizontal scroll bar, despite nothing to scroll. Setting the position for the index and sign up page did make this appear nearer the bottom, however there was still some space beneath this. Eventually, setting the footer as a flexbox, I was able to get the footer to remain at the bottom. I also removed all margins to remove the space. The issue with the scrollbar was caused by the width of the header.
 
 # Deployment
 This was deployed to GitHub pages
