@@ -174,7 +174,8 @@ header {
 }
 
 .actress {
-    height: 320px;
+    height: 350px;
+    padding: 10px;
 }
 
 .alt-hr {
