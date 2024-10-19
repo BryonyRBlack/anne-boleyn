@@ -3,6 +3,20 @@ Daily Life of Anne Boleyn is a website that sends out a daily, weekly, or monthl
 The intended user base for this website is people who are interested in history, and wish to learn more about the Tudor period. There is a question on the form page about whether users would be interested in other prominent Tudors, to see if there is a market for expansion.
 ![Image showing webpage on different size devices](assets/images/am-i-responsive.png)
 
+# Planning Stage
+## User Stories
+The idea came from wanting a website which would offer information about Anne Boleyn, and her impact on British History. Having all of the information in one place makes it easier to navigate, and having he information come as an email rather than a website so that the user does not need to activly check the website.
+
+## Owner Goals
+The insperation to do this as a daily email came from [ Frankenstein Daily](https://frankensteindaily.substack.com/) and [Dracula Daily](https://draculadaily.substack.com/). However, these websites only give the daily update, and I wanted to create something which would offer more information about Anne, such as her biography and on-screen potrayals. 
+
+## Wireframes
+![Wireframe of desktop](assets/images/wireframes-desktop.png)![Wireframe of mobile](assets/images/wireframes-mobile.png)
+The first step was to create a wireframe of what I wished to achive both desktop and mobile. The initial plan was to have the about section on the index page, and a header with an image. As the project progressed, the header became text only, and the about section became it's own individual page. The layout of the media page also changed from two columns to three on desktops.
+
+## Design
+The imagry was easier to locate, due to this being related to Anne. The background I wanted green due to the (unproved) theory that Green Sleves was written about her. I went for a pale green to ensure that this would still be visable. The header and navigation bar is in a dark grey so as not to clash. The font for the header was selected as it is easy to read, but has a historical look to it. Similar reasons were chosen for the main body text ensuring that this was serif, but still easy to read. 
+
 # Features
 ## Navigation Bar
 ![Image showing the mobile navigation bar](assets/images/navigation-bar-mobile.png)
