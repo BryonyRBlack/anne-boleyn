@@ -79,6 +79,9 @@ After these changes were made, they agreed that the website made more sense to r
 ### Footer
 The footer would not remain at the bottom of the page. On the main and sign up page, it would go to the bottom of the text, and on other pages appeared about halfway down. There was also a horizontal scroll bar, despite nothing to scroll. Setting the position for the index and sign up page did make this appear nearer the bottom, however there was still some space beneath this. Eventually, setting the footer as a flexbox, I was able to get the footer to remain at the bottom. I also removed all margins to remove the space. The issue with the scrollbar was caused by the width of the header.
 
+## Future Additions
+I would like to add an example to the index page that changes to w
+
 # Deployment
 This was deployed to GitHub pages
 * Clicked onto the settings tab, and then onto *Pages* under *Code and automation*
