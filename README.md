@@ -46,7 +46,7 @@ The form takes the name and email address, and won't submit unless these are cor
 # Testing
 
 ## Lighthouse
-I have run all pages through Lighthouse, both mobile and desktop, to ensure fully accessable. Has come back on all pages as 100.
+I have run all pages through Lighthouse, both mobile and desktop, to ensure fully accessable. Accessibility score has come back on all pages as 100.
 
 ### Header
 For the header, on mobile screens, the navigation bar is beneath a burger icon that has to be clicked on in order for the options to come up. This saves space on smaller devices. On a tablet or desktop, the navigation bar is fixed to the top of the screen as this has more space. The header text is set to be central on all screen sizes, but with different font sizes in order to fit the type of device.
