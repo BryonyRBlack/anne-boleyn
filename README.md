@@ -112,6 +112,7 @@ The deployed site can be located here: https://bryonyrblack.github.io/anne-boley
 * Historical Facts from Tudors by Peter Ackroyd
 * Mobile Navigation bar from Love Running
 * Icons in the navigation bar from Font Awesome
+* Form currently sends to https://formdump.codeinstitute.net/
 
 ## Media
 * Images used are from Google Images, with license set to Creative Commons licenses
