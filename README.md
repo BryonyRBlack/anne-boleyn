@@ -5,17 +5,18 @@ The intended user base for this website is people who are interested in history,
 
 # Planning Stage
 ## User Stories
-The idea came from wanting a website which would offer information about Anne Boleyn, and her impact on British History. Having all of the information in one place makes it easier to navigate, and having he information come as an email rather than a website so that the user does not need to activly check the website.
+The idea came from wanting a website which would offer information about Anne Boleyn, and her impact on British History. Having all of the information in one place makes it easier to navigate, and having the information come as an email rather than a website so that the user does not need to actively check the website.
 
 ## Owner Goals
-The insperation to do this as a daily email came from [ Frankenstein Daily](https://frankensteindaily.substack.com/) and [Dracula Daily](https://draculadaily.substack.com/). However, these websites only give the daily update, and I wanted to create something which would offer more information about Anne, such as her biography and on-screen potrayals. 
+The inspiration to do this as a daily email came from [ Frankenstein Daily](https://frankensteindaily.substack.com/) and [Dracula Daily](https://draculadaily.substack.com/). However, these websites only give the daily update, and I wanted to create something which would offer more information about Anne, such as her biography and on-screen potrayals. 
 
 ## Wireframes
 ![Wireframe of desktop](assets/images/wireframes-desktop.png)![Wireframe of mobile](assets/images/wireframes-mobile.png)
-The first step was to create a wireframe of what I wished to achive both desktop and mobile. The initial plan was to have the about section on the index page, and a header with an image. As the project progressed, the header became text only, and the about section became it's own individual page. The layout of the media page also changed from two columns to three on desktops.
+
+The first step was to create a wireframe of what I wished to achieve both desktop and mobile. The initial plan was to have the about section on the index page, and a header with an image. As the project progressed, the header became text only, and the about section became it's own individual page. The layout of the media page also changed from two columns to three on desktops.
 
 ## Design
-The imagry was easier to locate, due to this being related to Anne. The background I wanted green due to the (unproved) theory that Green Sleves was written about her. I went for a pale green to ensure that this would still be visable. The header and navigation bar is in a dark grey so as not to clash. The font for the header was selected as it is easy to read, but has a historical look to it. Similar reasons were chosen for the main body text ensuring that this was serif, but still easy to read. 
+The imagery was easier to locate, due to this being related to Anne. The background I wanted green due to the (unproved) theory that Green Sleeves was written about her. I went for a pale green to ensure that this would still be visible. The header and navigation bar is in a dark grey so as not to clash. The font for the header was selected as it is easy to read, but has a historical look to it. Similar reasons were chosen for the main body text ensuring that this was serif, but still easy to read. 
 
 # Features
 ## Navigation Bar
@@ -32,7 +33,7 @@ The index page is a simple page, with an image of Anne Boleyn, and a description
 ![Image of the footer](assets/images/footer.png)
 
 The footer gives a simple email address to contact with further questions. This is for ease for the user.
-## About Anne page
+## Who Was Anne page
 ![Image of the about page](assets/images/about-anne.png)
 
 The About Anne page is a brief overview of Anne's life. The first five sections are about Anne's life, with relevant images. On mobile the images are under the headers, whilst larger screens they are on the left. This was important to include as it gives users an idea about who Anne was and her importance to history.
@@ -67,7 +68,7 @@ I have opened the website on Google Chrome, Microsoft Edge and Firefox, and am h
 * No CSS errors found when run through [Jigsaw W3](https://jigsaw.w3.org/css-validator/Email.html)
 
 ## Lighthouse
-I have run all pages through Lighthouse, both mobile and desktop, to ensure fully accessable. Accessibility score has come back on all pages as 100.
+I have run all pages through Lighthouse, both mobile and desktop, to ensure fully accessible. Accessibility score has come back on all pages as 100.
 
 ## Responsiveness
 
@@ -115,4 +116,4 @@ The deployed site can be located here: https://bryonyrblack.github.io/anne-boley
 * Form currently sends to https://formdump.codeinstitute.net/
 
 ## Media
-* Images used are from Google Images, with license set to Creative Commons licenses
+* All the images used are from Google Images, with license set to Creative Commons licenses
