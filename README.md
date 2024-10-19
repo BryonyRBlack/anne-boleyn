@@ -52,6 +52,8 @@ The form takes the name and email address, and won't submit unless these are cor
 ## Lighthouse
 I have run all pages through Lighthouse, both mobile and desktop, to ensure fully accessable. Accessibility score has come back on all pages as 100.
 
+## Responsiveness
+
 ### Header
 For the header, on mobile screens, the navigation bar is beneath a burger icon that has to be clicked on in order for the options to come up. This saves space on smaller devices. On a tablet or desktop, the navigation bar is fixed to the top of the screen as this has more space. The header text is set to be central on all screen sizes, but with different font sizes in order to fit the type of device.
 
@@ -64,7 +66,7 @@ Each section is underneath a clear header for navigation. Each section contains 
 ### On-Screen Portrayals
 Each div contains an image of the actress, and some text. On a mobile screen this is a single column, with the picture above the text. On a tablet sized screen, these are in rows of two, and on a desktop, this is in rows of three. On each sized screen there is a hr line between each row.
 
-## Second Opinions
+## Pilot Testing
 After the main pages had been created, I showed this to a relative for their opinions on if this was logical and what they would expect from a website. 
 * Children page - at the time, the information about Elizabeth was on a separate page. The feedback advised that this was better suited on the Who Was Anne page as it is not a main focus for the site and also shows the longer impact Anne had on history.
 * Wives page - there had originally been a page about the six wives of Henry VIII. The feedback was that this was a little redundant, especially as Catherine and Jane's significance to Anne was featured on the Who Was Anne page, and the other three had no real connection. Because of this, I removed this page, however did use the responsive coding on the media page.
