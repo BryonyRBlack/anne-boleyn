@@ -45,6 +45,10 @@ The form takes the name and email address, and won't submit unless these are cor
 
 # Testing
 
+## Validation
+* No HTML errors found when run through [W3C Validator](https://validator.w3.org/nu/)
+* No CSS errors found when run through [Jigsaw W3](https://jigsaw.w3.org/css-validator/Email.html)
+
 ## Lighthouse
 I have run all pages through Lighthouse, both mobile and desktop, to ensure fully accessable. Accessibility score has come back on all pages as 100.
 
