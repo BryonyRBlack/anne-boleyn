@@ -64,7 +64,8 @@ The form takes the name and email address, and won't submit unless these are cor
 I have opened the website on Google Chrome, Microsoft Edge and Firefox, and am happy this works on all websites. I have also opened this on my mobile, and happy this runs as expected. 
 
 ## Validation
-* No HTML errors found when run through [W3C Validator](https://validator.w3.org/nu/)
+* No HTML errors found when run through W3C Validator
+- 
 * No CSS errors found when run through [Jigsaw W3](https://jigsaw.w3.org/css-validator/Email.html)
 
 ## Lighthouse
